@@ -1,5 +1,9 @@
-.title, {
-font-family: 'Abril Fatface', cursive;
+.title {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.reward-type {
+    font-family: 'Abril Fatface', cursive;
 }
 
 html {
