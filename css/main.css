@@ -1,0 +1,54 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font: normal 100%/1.5 sans-serif;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8E5DA;
+}
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 1em;
+    vertical-align: middle;
+}
+
+.title {
+    text-shadow: 1.5px 1.5px 0 grey;
+    display: inline-block;
+    background-color: #E8E5DA;
+}
+
+.masthead {
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.image-flex {
+	display: block;
+	width: 100%;
+}
+
+.images-border {
+    border-image: url(../images/border-photos.png) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
+}
