@@ -43,6 +43,27 @@ body {
     text-align: center;
 }
 
+p {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.reward {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.number {
+    text-align: center;
+}
+
 .image-flex {
 	display: block;
 	width: 100%;
@@ -51,6 +72,18 @@ body {
 .images-border {
     border-image: url(../images/border-photos.png) 20 20 20 20 stretch stretch;
     border-width: 20px 20px 20px 20px;
+}
+
+.reward-background {
+    background-color: #87714F;
+    padding: 20px;
+}
+
+.reward-icons {
+    background-image: url("../images/reward-bottom.svg"), url ("../images/reward-top.svg");
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    background-size: 32px 32px, 32px 32px;
 }
 
 @media only screen and (min-width: 37em) {
