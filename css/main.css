@@ -80,10 +80,10 @@ li {
 }
 
 .reward-icons {
-    background-image: url("../images/reward-bottom.svg"), url ("../images/reward-top.svg");
+    background-image: url("../images/reward-top.svg"), url("../images/reward-bottom.svg");
     background-position: center top, center bottom;
     background-repeat: no-repeat;
-    background-size: 32px 32px, 32px 32px;
+    background-size: 90px 90px, 90px 90px;
 }
 
 @media only screen and (min-width: 37em) {
